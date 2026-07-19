@@ -1,0 +1,3 @@
+- [x] Update `compileSdk` and `targetSdk` to 36 in `app/build.gradle.kts`
+- [x] Add `tools:ignore="LayoutFidelity"` to the root element in `activity_main.xml`
+- [x] Run Gradle Sync

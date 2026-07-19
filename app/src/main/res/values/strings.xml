@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">MiPrimeraApp</string>
+    <string name="hint_nombre">Escribe tu nombre</string>
+    <string name="hola_mensaje">Hola %1$s</string>
+    <string name="hola">Hola</string>
+    <string name="btn_saludar">Saludar</string>
+    <string name="bienvenido">Bienvenido a Android</string>
 </resources>

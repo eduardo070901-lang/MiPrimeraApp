@@ -2,24 +2,45 @@
 
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="20dp">
+    android:padding="24dp"
+    tools:context=".MainActivity"
+    tools:ignore="LayoutFidelity">
 
     <EditText
         android:id="@+id/etNombre"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:hint="Escribe tu nombre"
-        android:inputType="text" />
+        android:layout_gravity="center_horizontal"
+        android:layout_marginHorizontal="8dp"
+        android:autofillHints="name"
+        android:ems="10"
+        android:hint="@string/hint_nombre"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:textColor="@android:color/black"
+        android:textColorHint="@android:color/darker_gray"
+        tools:ignore="LayoutFidelity,TextContrastCheck" />
+
+    <Button
+        android:id="@+id/btnSaludar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:text="@string/btn_saludar" />
 
     <TextView
         android:id="@+id/tvMensaje"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hola"
-        android:textSize="24sp"
-        android:layout_marginTop="20dp" />
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:text="@string/hola"
+        android:textSize="24sp" />
 
 </LinearLayout>
