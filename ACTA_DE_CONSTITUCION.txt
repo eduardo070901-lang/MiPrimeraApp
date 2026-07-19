@@ -1,0 +1,113 @@
+═══════════════════════════════════════════════════════════════════════════════
+                        ACTA DE CONSTITUCIÓN DEL PROYECTO
+                              "Mi Primera App"
+                           Aplicación Android Móvil
+═══════════════════════════════════════════════════════════════════════════════
+
+FECHA: 18 de Julio de 2026
+TIPO DE DOCUMENTO: Acta de Constitución del Proyecto
+
+───────────────────────────────────────────────────────────────────────────────
+INTEGRANTES DEL EQUIPO DE DESARROLLO
+───────────────────────────────────────────────────────────────────────────────
+
+1. Ronald Vasquez Maldonado
+   Matrícula: 2-14-4287
+   Rol: Coordinador del Proyecto / Desarrollador Principal
+   Responsabilidades: Arquitectura general de la aplicación, integración de 
+                      componentes y compilación final.
+
+2. Eduardo Del Carmen Rodriguez
+   Matrícula: 1-22-4217
+   Rol: Desarrollador de Interfaz
+   Responsabilidades: Diseño del layout (activity_main.xml), interfaz de usuario
+                      y componentes visuales.
+
+3. Jose Manuel Reyes
+   Matrícula: 1-21-5110
+   Rol: Desarrollador Backend
+   Responsabilidades: Lógica de la aplicación (MainActivity.kt), funcionalidad
+                      de eventos y gestión de datos.
+
+───────────────────────────────────────────────────────────────────────────────
+DESCRIPCIÓN DEL PROYECTO
+───────────────────────────────────────────────────────────────────────────────
+
+NOMBRE: Mi Primera App
+DESCRIPCIÓN: Aplicación Android que permite a los usuarios ingresar su nombre 
+             y recibir un saludo personalizado.
+
+OBJETIVO: Crear una aplicación funcional para Android que demuestre los 
+          conceptos básicos de desarrollo de aplicaciones móviles, incluyendo
+          interacción con usuario, gestión de eventos y manipulación de 
+          componentes visuales.
+
+PLATAFORMA: Android
+SDK UTILIZADO: Android API 37 (compileSdk: 37)
+VERSIÓN MÍNIMA: API 24
+LENGUAJE: Kotlin
+
+───────────────────────────────────────────────────────────────────────────────
+COMPONENTES PRINCIPALES DEL PROYECTO
+───────────────────────────────────────────────────────────────────────────────
+
+1. ARCHIVO: activity_main.xml
+   DESARROLLADO POR: Eduardo Del Carmen Rodriguez (Matrícula: 1-22-4217)
+   DESCRIPCIÓN: Archivo de layout que define la interfaz de usuario.
+   COMPONENTES:
+   - EditText (etNombre): Campo de entrada para que el usuario ingrese su nombre
+   - Button (btnSaludar): Botón que dispara la acción de saludo
+   - TextView (tvMensaje): Campo de texto que muestra el mensaje de bienvenida
+   
+2. ARCHIVO: MainActivity.kt
+   DESARROLLADO POR: Jose Manuel Reyes (Matrícula: 1-21-5110)
+   DESCRIPCIÓN: Archivo principal de la actividad con la lógica de negocio.
+   FUNCIONALIDADES:
+   - Inicialización de la actividad
+   - Manejo de eventos del botón
+   - Validación de entrada de usuario
+   - Generación de mensaje personalizado
+
+3. ARCHIVO: strings.xml
+   DESARROLLADO POR: Ronald Vasquez Maldonado (Matrícula: 2-14-4287)
+   DESCRIPCIÓN: Recursos de cadenas de texto para la aplicación.
+
+───────────────────────────────────────────────────────────────────────────────
+DETALLES DE IMPLEMENTACIÓN
+───────────────────────────────────────────────────────────────────────────────
+
+FUNCIONALIDAD PRINCIPAL:
+- El usuario ingresa su nombre en el campo EditText
+- Al presionar el botón "Saludar", la aplicación:
+  * Valida que el campo no esté vacío
+  * Si es válido: Muestra un saludo personalizado "Hola [nombre]"
+  * Si está vacío: Muestra el mensaje por defecto "Bienvenido a Android"
+
+CORRECCIONES Y MEJORAS REALIZADAS:
+- Actualización de compileSdk de 36 a 37 para cumplir con requisitos de 
+  dependencias modernas
+- Implementación de contraste de color adecuado en componentes de entrada
+- Migración de literales de texto a recursos de string (best practices Android)
+- Aplicación de LayoutFidelity checks y validaciones de accesibilidad
+
+───────────────────────────────────────────────────────────────────────────────
+APROBACIÓN Y FIRMA DIGITAL
+───────────────────────────────────────────────────────────────────────────────
+
+Habiendo sido presentado y revisado el presente acta de constitución, los 
+integrantes del equipo de desarrollo afirman que el proyecto "Mi Primera App" 
+ha sido completado conforme a los requisitos especificados.
+
+PROYECTO COMPLETADO: ✓ SI
+COMPILACIÓN EXITOSA: ✓ SI
+APK GENERADO: ✓ SI (app-debug.apk)
+
+Responsables de la Compilación Final:
+Ronald Vasquez Maldonado - Matrícula: 2-14-4287
+
+Fecha de Finalización: 18 de Julio de 2026
+Estado: COMPLETADO Y FUNCIONAL
+
+═══════════════════════════════════════════════════════════════════════════════
+                            FIN DEL ACTA
+═══════════════════════════════════════════════════════════════════════════════
